@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "google",
+    "version": "0.1.0",
+    "description": "一款小工具2",
+    "icons": {
+        "84": "./logo.png"
+    },
+    "action": {
+        "default_icon": "./logo.png",
+        "default_title": "我的插件",
+        "default_popup": "./index.html"
+    },
+    "background": {
+        "service_worker": "./background.js"
+    },
+    "permissions":["storage"]
+}
